@@ -1,129 +1,146 @@
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0px;
-  padding: 0px;
+	background-image: url("https://as2.ftcdn.net/v2/jpg/01/87/47/91/1000_F_187479145_0x9zD8Ro6QuI776cH8IhUS2ycuH5c83T.jpg");
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
 }
 
 .header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  background-color: bisque;
-  width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	padding-bottom: 0px;
+	width: 100%;
+	font-size: 100px;
+	font-family: "Poor Story", cursive;
+	font-weight: 900;
+	color: rgb(21, 83, 93);
 }
 
 .calculator {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(98, 224, 178);
-  width: 300px;
-  height: max-content;
-  margin: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url("https://i.pinimg.com/originals/30/d7/c8/30d7c82f9b9a7f24f7d394601989a4fb.jpg");
+	background-size: cover;
+	width: 300px;
+	height: max-content;
+	margin: 50px;
+	margin-top: 10px;
+	box-shadow: 5px 5px 5px black;
+	border-radius: 15px;
 }
 
 .display {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-  border: 1px solid black;
-  min-height: 60px;
-  width: 90%;
-  background-color: rgb(203, 223, 223);
-  margin: 20px 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	border: 1px solid black;
+	min-height: 60px;
+	width: 90%;
+	background-color: rgb(183, 230, 127);
+	margin: 20px 40px;
+	box-shadow: inset 5px 5px 5px rgb(27, 36, 25);
+	border-radius: 5px;
 }
 
 .display-input {
-  font-size: 30px;
+	font-size: 30px;
 }
 
 .display-new-input {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  text-align: end;
-  padding: 0px 5px;
-  height: 40px;
-  width: 95%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	text-align: end;
+	padding: 0px 5px;
+	height: 40px;
+	width: 95%;
 }
 
 .old-input {
-  margin: 2px 20px;
-  display: flex;
-  justify-content: flex-end;
-  height: 20px;
-  width: 95%;
+	margin: 2px 20px;
+	display: flex;
+	justify-content: flex-end;
+	height: 20px;
+	width: 95%;
 }
 
 .input {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
+	display: flex;
+	flex-direction: column;
+	width: 90%;
 }
 
 .top-row {
-  width: 100%;
-  display: flex;
+	width: 100%;
+	display: flex;
 }
 
 .matrix {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .numpad {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-evenly;
-  align-items: center;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
 .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px 10px;
-  background-color: rgb(132, 162, 93);
-  margin: 10px 5px;
-  flex: 1;
-  width: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px 10px;
+	background-color: rgb(54, 100, 105);
+	margin: 10px 5px;
+	flex: 1;
+	width: 35px;
+	box-shadow: 5px 5px 5px rgb(0, 0, 0);
+	color: aliceblue;
+	font-family: "Poor Story", cursive;
+	font-size: 20px;
+	border-radius: 15px;
+	box-shadow: inset 5px 5px 5px rgb(0, 0, 0);
 }
 
 .button:hover {
-  background-color: rgb(100, 123, 70);
+	background-color: rgb(100, 123, 70);
 }
 
 .fourth-column .extra {
-  display: flex;
-  background-color: rgb(58, 190, 80);
-  height: 78px;
-  justify-items: center;
-  align-items: center;
+	display: flex;
+	background-color: rgb(48, 163, 67);
+	height: 78px;
+	justify-items: center;
+	align-items: center;
 }
 .fourth-column .extra:hover {
-  background-color: rgb(45, 138, 60);
+	background-color: rgb(45, 138, 60);
 }
 
 .third-column .extra {
-  background-color: rgb(200, 65, 65);
+	background-color: rgb(200, 65, 65);
 }
 .third-column .extra:hover {
-  background-color: rgb(147, 48, 48);
+	background-color: rgb(147, 48, 48);
 }
 
 .operator {
-  background-color: grey;
+	background-color: rgb(189, 158, 63);
 }
 
 .operator:hover {
-  background-color: rgb(84, 82, 82);
+	background-color: rgb(84, 82, 82);
 }
