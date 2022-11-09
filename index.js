@@ -30,10 +30,7 @@ function checkInput() {
 			clearMainDisplay();
 			calculate(firstNum, secondNum);
 			isFirstNumber = false;
-		} else if (
-			operators.includes(this.id) === false &&
-			this.id != "clear"
-		) {
+		} else if (operators.includes(this.id) === false && this.id != "clear") {
 			pushMainDisplay(this.id);
 		} else if (operators.includes(this.id) && this.id != "clear") {
 			if (isFirstOperator === false) error();
